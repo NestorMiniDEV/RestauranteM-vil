@@ -8,21 +8,25 @@
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "ios": {
-      "supportsTablet": true
-    },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.nestoralejandro06.restaurantemovil"
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "owner": "nestoralejandro06",
+    "android": {
+      "package": "com.nestoralejandro06.restaurantemovil"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "28b79479-9d4e-4f4d-bd61-cb2f5dbce0b5"
+      }
     }
   }
 }
